@@ -1,0 +1,15 @@
+<MyWidget>:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 10
+
+    Label:
+        text: root.label_text
+        font_size: 24
+
+    Button:
+        text: "Click Me"
+        font_size: 18
+        size_hint_y: None
+        height: 50
+        on_press: root.update_label()
